@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  @apply bg-white text-gray-900;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+@layer components {
+  .card {
+    @apply bg-white border border-gray-200 rounded-xl shadow-sm;
+  }
+  
+  .card-gradient {
+    @apply bg-white border border-gray-200 rounded-xl shadow-sm;
+  }
+  
+  .btn-primary {
+    @apply bg-gray-900 hover:bg-gray-800 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-200 transform hover:scale-105 shadow-lg;
+  }
+  
+  .btn-secondary {
+    @apply bg-gray-900 hover:bg-gray-800 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-200 transform hover:scale-105 shadow-lg;
+  }
+  
+  .input-field {
+    @apply bg-transparent border border-gray-300 text-gray-900 rounded-lg px-4 py-3 focus:ring-2 focus:ring-gray-500 focus:border-transparent transition-all duration-200;
+  }
+  
+  .stat-card {
+    @apply bg-white border border-gray-200 rounded-xl p-3 sm:p-4 lg:p-6 shadow-sm hover:shadow-md transition-all duration-300 transform hover:-translate-y-1;
+  }
+}
+
+.progress-circle {
+  transform: rotate(-90deg);
+}
+
+.progress-ring {
+  transition: stroke-dashoffset 0.5s ease-in-out;
+}
+
+/* Custom scrollbar for sidebar */
+.sidebar-scroll::-webkit-scrollbar {
+  width: 4px;
+}
+
+.sidebar-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb {
+  background: rgba(107, 114, 128, 0.3);
+  border-radius: 2px;
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(107, 114, 128, 0.5);
+}
+
+/* Animation delays for background blobs */
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-1000 {
+  animation-delay: 1s;
+}
+
+/* Blob animation */
+@keyframes blob {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  33% {
+    transform: translate(30px, -50px) scale(1.1);
+  }
+  66% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+}
+
+.animate-blob {
+  animation: blob 7s infinite;
+}
+
+/* Responsive sidebar adjustments */
+@media (max-width: 1024px) {
+  .sidebar-responsive {
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .sidebar-responsive.open {
+    transform: translateX(0);
+  }
+}

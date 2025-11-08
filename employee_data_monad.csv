@@ -1,0 +1,11 @@
+name,email,designation,department,salary,wallet_address,join_date,status
+John Doe,john@company.com,Senior Developer,Engineering,5000,0x0000000000000000000000000000000000000001,2025-01-15,active
+Sarah Martinez,sarah.martinez@company.com,Product Manager,Product,6500,0x0000000000000000000000000000000000000002,2024-03-22,active
+Michael Chen,michael.chen@company.com,DevOps Engineer,Engineering,5500,0x0000000000000000000000000000000000000003,2024-07-10,active
+Emily Rodriguez,emily.r@company.com,UX Designer,Design,4800,0x0000000000000000000000000000000000000004,2024-11-05,active
+David Kumar,david.kumar@company.com,Junior Developer,Engineering,3500,0x0000000000000000000000000000000000000005,2025-02-01,active
+Lisa Thompson,lisa.t@company.com,HR Manager,Human Resources,5800,0x0000000000000000000000000000000000000006,2023-09-18,active
+James Wilson,james.wilson@company.com,Data Analyst,Analytics,4500,0x0000000000000000000000000000000000000007,2024-05-14,active
+Rachel Park,rachel.park@company.com,Senior Designer,Design,5200,0x0000000000000000000000000000000000000008,2023-12-03,active
+Ahmed Hassan,ahmed.hassan@company.com,Marketing Specialist,Marketing,4200,0x0000000000000000000000000000000000000009,2024-08-20,active
+Jennifer Lee,jennifer.lee@company.com,QA Engineer,Engineering,4600,0x000000000000000000000000000000000000000a,2024-01-30,inactive

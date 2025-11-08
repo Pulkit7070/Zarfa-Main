@@ -1,0 +1,50 @@
+{
+  "name": "zarfa-monad",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@aptos-labs/ts-sdk": "^1.28.0",
+    "@aptos-labs/wallet-adapter-core": "^4.17.0",
+    "@aptos-labs/wallet-adapter-react": "^3.7.0",
+    "@emailjs/browser": "^4.3.3",
+    "@google/generative-ai": "^0.24.1",
+    "@subframe/core": "^1.146.0",
+    "@supabase/supabase-js": "^2.39.3",
+    "@tanstack/react-query": "^5.87.4",
+    "@types/qrcode": "^1.5.5",
+    "clsx": "^2.1.0",
+    "framer-motion": "^11.0.24",
+    "lucide-react": "^0.344.0",
+    "petra-plugin-wallet-adapter": "^0.4.5",
+    "qrcode-generator": "^2.0.4",
+    "qrcode.js": "^0.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-qr-code": "^2.0.18",
+    "recharts": "^2.12.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.1",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.18",
+    "eslint": "^9.9.1",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.11",
+    "globals": "^15.9.0",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "terser": "^5.44.0",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^8.3.0",
+    "vite": "^5.4.2"
+  }
+}
