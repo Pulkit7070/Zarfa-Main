@@ -1,0 +1,9 @@
+[submodule "contract/lib/delegation-framework"]
+	path = contract/lib/delegation-framework
+	url = https://github.com/metamask/delegation-framework
+[submodule "contract/lib/pyth-sdk-solidity"]
+	path = contract/lib/pyth-sdk-solidity
+	url = https://github.com/pyth-network/pyth-sdk-solidity
+[submodule "contract/lib/openzeppelin-contracts"]
+	path = contract/lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts

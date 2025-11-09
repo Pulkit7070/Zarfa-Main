@@ -1,0 +1,17 @@
+providers = ["node"]
+
+[phases.setup]
+nixPkgs = ["nodejs_18", "openssl"]
+
+[phases.install]
+cmds = ["npm ci --include=dev"]
+
+[phases.build]
+cmds = [
+  "npx prisma generate --schema=libs/database/src/schema.prisma",
+  "npm run build"
+]
+
+[start]
+cmd = "node dist/apps/api/main"
+onlyIncludeFiles = ["dist", "node_modules", "package.json", "libs/database/src/schema.prisma"]

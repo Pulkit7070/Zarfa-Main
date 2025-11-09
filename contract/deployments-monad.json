@@ -1,0 +1,15 @@
+{
+  "monad": {
+    "pythOracle": "0x9E0D02De3f2c268c8a7A1A5570ee552E69370E73",
+    "pythOracleImpl": "0xbA0df40B9698c23e797001d0eAd344a71f9a9a2F",
+    "rebalancerConfig": "0x42c2cADA7243f8C9E36bbB740A4E29e60608Be9b",
+    "rebalancerConfigImpl": "0x8Da42A3BBA09DaDe0bbDFc4E1287dE3E8b7532dc",
+    "uniswapHelper": "0x09294E55E7059b700970F5BDbBE6A6e4A9fB0C42",
+    "uniswapHelperImpl": "0xC1108c443181d7DaF5D7adBd72ff84950B2e8470",
+    "delegationManager": "0x778A5056ad464e2D37bc7405Ac78614FA3241d20",
+    "strategyRegistry": "0x619046dFaE5725D7ded587B57d228bebF6e35324",
+    "strategyRegistryImpl": "0x1A20Ab7658C5DD85719cba57309EDc14d32DE6E5",
+    "rebalanceExecutor": "0x2A2B7b477E793f5A6feB340C276d23637Fe146d6",
+    "rebalanceExecutorImpl": "0x8ae2f7a24c107740cA0959A696d0D9bfeFf9B392"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "lib/openzeppelin-contracts": {
+    "tag": {
+      "name": "v5.5.0-rc.1",
+      "rev": "41e30cdee60d34fadbf94f8dc230657f9c11e2c9"
+    }
+  }
+}
