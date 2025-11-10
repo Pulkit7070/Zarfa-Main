@@ -233,7 +233,70 @@ sequenceDiagram
   Dashboard-->>HR: Payment confirmation
 ```
 
-## 🚀 Getting Started
+## � Additional Infrastructure: Rebased Backend Automation
+
+Zarfa includes a **comprehensive backend microservices infrastructure** that powers advanced portfolio automation and blockchain indexing capabilities.
+
+### Backend Features
+- **NestJS 10 Microservices**: Modular architecture with API server, Bot worker, and Indexer
+- **Real-time Processing**: Socket.IO for live updates and event streaming
+- **Queue Management**: Bull queues with Redis for reliable job processing
+- **Database**: PostgreSQL 16 with Prisma ORM for type-safe database operations
+- **Blockchain Integration**: Multi-chain support (Monad, Base, Ethereum) with viem
+- **Oracle Integration**: Pyth Network price feeds for accurate market data
+- **Strategy Execution**: Automated portfolio rebalancing based on user-defined strategies
+
+### Backend Architecture
+```
+backend/
+├── apps/
+│   ├── api/              # Main REST API server (Port 3000)
+│   ├── bot/              # Worker for strategy execution
+│   └── indexer/          # Blockchain event indexer
+├── libs/
+│   ├── blockchain/       # Multi-chain interaction layer
+│   ├── database/         # Prisma schema & migrations
+│   ├── events/           # Event handling & WebSocket
+│   ├── notifications/    # Alert & notification system
+│   └── queue/           # Bull queue configuration
+```
+
+### Backend Setup
+
+1. **Navigate to backend directory**
+   ```bash
+   cd backend
+   ```
+
+2. **Install dependencies**
+   ```bash
+   pnpm install
+   ```
+
+3. **Configure environment**
+   Create `.env` file:
+   ```env
+   DATABASE_URL="postgresql://user:password@localhost:5432/zarfa"
+   REDIS_URL="redis://localhost:6379"
+   PRIVATE_KEY="your_wallet_private_key"
+   MONAD_RPC_URL="https://testnet-rpc.monad.xyz"
+   BASE_RPC_URL="https://sepolia.base.org"
+   ```
+
+4. **Start infrastructure**
+   ```bash
+   docker-compose up -d  # PostgreSQL + Redis
+   pnpm prisma migrate dev
+   ```
+
+5. **Run backend services**
+   ```bash
+   pnpm start:dev  # Start all microservices
+   ```
+
+---
+
+## �🚀 Getting Started
 
 ### Prerequisites
 - Node.js (v18 or higher)
@@ -241,6 +304,7 @@ sequenceDiagram
 - MetaMask browser extension
 - Supabase account (optional - app works without it)
 - Google AI API key
+- Docker (for backend services - optional)
 
 ### Installation
 
@@ -285,7 +349,8 @@ sequenceDiagram
 1. **Connect MetaMask** through the web interface
 2. **For VAT Refunds**: Upload receipts and documentation
 3. **For Payroll**: Add employees and configure payments
-4. **Monitor transactions** through the dashboard
+4. **For Portfolio Automation**: Configure strategies in the backend dashboard
+5. **Monitor transactions** through the dashboard
 
 ## 📁 Project Structure
 
@@ -298,6 +363,19 @@ src/
 ├── contexts/           # React context providers (WalletContext)
 ├── ui/                 # UI component library
 └── lib/                # Library configurations
+
+backend/
+├── apps/
+│   ├── api/            # REST API server (NestJS)
+│   ├── bot/            # Strategy execution worker
+│   └── indexer/        # Blockchain event indexer
+├── libs/
+│   ├── blockchain/     # Multi-chain integration
+│   ├── database/       # Prisma ORM & PostgreSQL
+│   ├── events/         # WebSocket & event handling
+│   ├── notifications/  # Alert system
+│   └── queue/          # Bull queue configuration
+└── scripts/            # Deployment & verification scripts
 
 contracts/
 ├── sources/            # Legacy Move smart contracts (Aptos)
@@ -326,6 +404,15 @@ contracts/
 - Transfer hash storage for regulatory compliance
 - Real-time database with authentication and authorization
 - **App works without Supabase** using localStorage-first architecture
+
+### 5. **Backend Infrastructure (NestJS Microservices)**
+- **NestJS 10**: Modular microservices architecture for scalability
+- **PostgreSQL 16**: Relational database with Prisma ORM
+- **Redis 7**: In-memory data store for caching and queue management
+- **Bull Queues**: Reliable background job processing
+- **Socket.IO**: Real-time bidirectional event-based communication
+- **Viem**: Type-safe Ethereum library for multi-chain interaction
+- **Pyth Oracle**: Decentralized price feeds for accurate market data
 
 ---
 
