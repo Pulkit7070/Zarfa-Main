@@ -24,7 +24,7 @@ export const NotificationTest: React.FC = () => {
       "System update: New features available",
       "Security alert: Unusual login detected",
       "Payroll processing complete for May 2025",
-      "Welcome to Zarfa! Get started by adding employees",
+      "Welcome to Orbix ! Get started by adding employees",
       "Error: Unable to connect to blockchain network",
     ];
 

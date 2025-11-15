@@ -109,7 +109,7 @@ export const Header: React.FC<HeaderProps> = ({
           >
             <ZarfaLogo />
             <div>
-              <h1 className="text-xl font-bold text-gray-900">Zarfa</h1>
+              <h1 className="text-xl font-bold text-gray-900">Orbix</h1>
             </div>
           </button>
 
@@ -154,7 +154,7 @@ export const Header: React.FC<HeaderProps> = ({
             <div className="hidden sm:block">
               <img
                 src="/logo.png"
-                alt="Zarfa"
+                alt="Orbix"
                 className="w-10 h-10 object-contain"
               />
             </div>

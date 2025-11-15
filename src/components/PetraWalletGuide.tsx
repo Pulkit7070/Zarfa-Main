@@ -69,7 +69,7 @@ export const PetraWalletGuide: React.FC<PetraWalletGuideProps> = ({
                 </h3>
                 <p className="text-sm text-gray-600">
                   Create a new wallet or import an existing one. Make sure
-                  you're on <strong>Mainnet</strong> to match Zarfa
+                  you're on <strong>Mainnet</strong> to match Orbix 
                   transactions.
                 </p>
               </div>
@@ -140,7 +140,7 @@ export const PetraWalletGuide: React.FC<PetraWalletGuideProps> = ({
                       <strong>Other issues:</strong>
                       <ul className="list-disc list-inside mt-1 ml-2">
                         <li>
-                          Make sure you're on Mainnet in both Zarfa and Petra
+                          Make sure you're on Mainnet in both Orbix  and Petra
                         </li>
                         <li>Try refreshing the QR code if it doesn't work</li>
                         <li>Check your internet connection</li>

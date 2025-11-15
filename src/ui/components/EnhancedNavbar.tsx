@@ -126,7 +126,7 @@ const EnhancedNavbar = React.forwardRef<HTMLElement, EnhancedNavbarProps>(
           <div className="flex items-center gap-2">
             <ZarfaLogo />
             <span className="font-['Montserrat'] text-[20px] font-[800] text-brand-900">
-              Zarfa
+              Orbix
             </span>
           </div>
 

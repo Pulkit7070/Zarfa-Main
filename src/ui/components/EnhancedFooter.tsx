@@ -47,7 +47,7 @@ const EnhancedFooter = React.forwardRef<HTMLElement, EnhancedFooterProps>(
                   <Wallet size={20} className="text-white" />
                 </div>
                 <span className="font-['Montserrat'] text-[24px] font-[800] text-white">
-                  Zarfa
+                  Orbix 
                 </span>
               </div>
 
@@ -147,13 +147,13 @@ const EnhancedFooter = React.forwardRef<HTMLElement, EnhancedFooterProps>(
                 <div className="flex items-center gap-2">
                   <Mail size={16} className="text-white/70" />
                   <LinkButton className="text-white/70 hover:text-white">
-                    hello@Zarfa.com
+                    hello@Orbix .com
                   </LinkButton>
                 </div>
                 <div className="flex items-center gap-2">
                   <Globe size={16} className="text-white/70" />
                   <LinkButton className="text-white/70 hover:text-white">
-                    Zarfa.com
+                    Orbix .com
                   </LinkButton>
                 </div>
               </div>

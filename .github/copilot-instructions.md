@@ -1,7 +1,7 @@
-# Zarfa AI Development Guide
+# Orbix  AI Development Guide
 
 ## Project Overview
-Zarfa is a blockchain-based VAT refund and payroll payment infrastructure. **Key architectural decision**: The app is currently transitioning from Aptos to Monad blockchain (EVM-compatible), with legacy Aptos code still present in the codebase.
+Orbix is a blockchain-based VAT refund and payroll payment infrastructure. **Key architectural decision**: The app is currently transitioning from Aptos to Monad blockchain (EVM-compatible), with legacy Aptos code still present in the codebase.
 
 ## Critical Blockchain Context
 

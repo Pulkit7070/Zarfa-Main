@@ -24,12 +24,12 @@ const ZarfaLogo: React.FC<ZarfaLogoProps> = ({
         className || "w-8 h-8"
       }`}
       style={inlineSize}
-      aria-label="Zarfa logo"
-      title="Zarfa"
+      aria-label="Orbix  logo"
+      title="Orbix "
     >
       <img
         src="/logo.png"
-        alt="Zarfa"
+        alt="Orbix "
         className={`object-contain ${imgClassName || "w-6 h-6"}`}
       />
     </div>

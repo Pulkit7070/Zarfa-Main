@@ -1,7 +1,7 @@
 # Integration Complete - Platform Fee & Business Metrics
 
 ## Overview
-Successfully integrated all platform fee and business metrics features into the Zarfa application UI. All new components are now live in production code.
+Successfully integrated all platform fee and business metrics features into the Orbix application UI. All new components are now live in production code.
 
 ## What Was Integrated
 
@@ -147,7 +147,7 @@ All components use these functions from `src/utils/monad.ts`:
 
 ### VAT Refund Economics
 - **Tourist VAT**: 100% collected by merchant
-- **Zarfa Refund**: 85% returned to tourist
+- **Orbix Refund**: 85% returned to tourist
 - **Platform Fee**: 0.5% of refund amount
 - **Net to Tourist**: 84.575% of original VAT
 
@@ -261,7 +261,7 @@ Platform fee collection uses:
 
 ## Summary
 
-🎉 **Integration Complete!** All platform fee and business metrics features are now live in the Zarfa application. Users have complete transparency on fees, and business owners can monitor platform performance in real-time.
+🎉 **Integration Complete!** All platform fee and business metrics features are now live in the Orbix application. Users have complete transparency on fees, and business owners can monitor platform performance in real-time.
 
 ### Key Achievements
 - ✅ 4 UI components updated with fee information

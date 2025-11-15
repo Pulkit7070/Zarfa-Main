@@ -283,7 +283,7 @@ function AptosLandingPage() {
                     Borderless Payments
                   </h3>
                   <p className="font-['Montserrat'] text-[16px] leading-[24px] mb-6">
-                    Zarfa's infrastructure eliminates geographical barriers,
+                    's infrastructure eliminates geographical barriers,
                     enabling instant cross-border transactions with minimal
                     fees.
                   </p>
@@ -306,7 +306,7 @@ function AptosLandingPage() {
                 </span>
                 <span className="whitespace-pre-wrap font-['Montserrat'] text-[18px] font-[400] leading-[26px] text-subtext-color -tracking-[0.01em]">
                   {
-                    "Zarfa unifies VAT refunds for tourists and global payroll automation on a single trustless platform. Powered by Aptos's blockchain for instant finality and AI-driven compliance."
+                    "Orbix   unifies VAT refunds for tourists and global payroll automation on a single trustless platform. Powered by Aptos's blockchain for instant finality and AI-driven compliance."
                   }
                 </span>
 
@@ -438,7 +438,7 @@ function AptosLandingPage() {
         <div className="flex w-full max-w-[1280px] flex-col items-center gap-6 z-10">
           <span className="inline-block px-4 py-1 bg-brand-50 rounded-full">
             <span className="font-['Montserrat'] text-[12px] font-[700] text-brand-800">
-              WHY Zarfa
+              WHY Orbix 
             </span>
           </span>
           <span className="w-full max-w-[768px] font-['Montserrat'] text-[48px] font-[800] leading-[52px] text-default-font text-center -tracking-[0.02em]">
@@ -672,7 +672,7 @@ function AptosLandingPage() {
             Real-World Applications
           </span>
           <p className="max-w-[768px] text-center text-subtext-color font-['Montserrat'] text-[18px] leading-[28px]">
-            Zarfa combines VAT refunds for tourists and global payroll
+            Orbix  combines VAT refunds for tourists and global payroll
             automation into a single borderless payments infrastructure with
             Web3 speed and AI-driven intelligence
           </p>
@@ -775,7 +775,7 @@ function AptosLandingPage() {
                       </h4>
                       <p className="text-subtext-color">
                         Retailer issues invoice + tax-free tag. Tourist wallet
-                        signs an ApplicationCall to Zarfa's VAT Contract.
+                        signs an ApplicationCall to Orbix 's VAT Contract.
                       </p>
                     </div>
                   </div>
@@ -792,7 +792,7 @@ function AptosLandingPage() {
                       </h4>
                       <p className="text-subtext-color">
                         Tourist scans tag at kiosk. Operator system validates
-                        goods exported and pushes a signed webhook to Zarfa
+                        goods exported and pushes a signed webhook to Orbix 
                         Oracle.
                       </p>
                     </div>
@@ -824,7 +824,7 @@ function AptosLandingPage() {
                   </h4>
                   <p className="text-subtext-color mb-4">
                     A Japanese tourist purchases a luxury watch in Dubai Mall
-                    for AED 50,000 (incl. 5% VAT = AED 2,500). Using Zarfa, they
+                    for AED 50,000 (incl. 5% VAT = AED 2,500). Using Orbix , they
                     scan the VAT tag at Dubai Airport and receive AED 2,125 (85%
                     of VAT) in USDC directly to their wallet before boarding
                     their flight.
@@ -988,7 +988,7 @@ function AptosLandingPage() {
                   </h4>
                   <p className="text-subtext-color mb-4">
                     A tech startup with 50 employees across 12 countries
-                    processes their monthly payroll of $250,000. Using Zarfa,
+                    processes their monthly payroll of $250,000. Using Orbix ,
                     they save $11,250 in fees (vs. traditional banking), ensure
                     tax compliance across all jurisdictions, and complete all
                     payments in under 1 minute.
@@ -1025,7 +1025,7 @@ function AptosLandingPage() {
             </span>
           </span>
           <span className="w-full max-w-[768px] font-['Montserrat'] text-[48px] font-[800] leading-[52px] text-default-font text-center -tracking-[0.02em]">
-            Dual Workflows with Zarfa
+            Dual Workflows with Orbix 
           </span>
           <p className="max-w-[768px] text-center text-subtext-color font-['Montserrat'] text-[18px] leading-[28px]">
             Our platform handles both VAT refunds and global payroll with
@@ -1075,7 +1075,7 @@ function AptosLandingPage() {
                               When a tourist makes a purchase at a participating
                               retailer, the store issues both a standard invoice
                               and a special tax-free tag. The tourist's wallet
-                              then signs an ApplicationCall to Zarfa's VAT
+                              then signs an ApplicationCall to Orbix 's VAT
                               Contract, opening a claim box keyed by a unique
                               claim_id.
                             </p>
@@ -1125,7 +1125,7 @@ function AptosLandingPage() {
                               their tax-free tag at an airport kiosk. The
                               operator system validates that the goods have been
                               exported according to local regulations and then
-                              pushes a signed webhook to the Zarfa Oracle, which
+                              pushes a signed webhook to the Orbix  Oracle, which
                               triggers an on-chain state update to mark the
                               claim as VALIDATED.
                             </p>
@@ -1252,7 +1252,7 @@ function AptosLandingPage() {
                           <div className="col-span-2">
                             <p className="text-subtext-color mb-4">
                               The HR department uploads payroll data in CSV
-                              format or through contracts into the Zarfa
+                              format or through contracts into the Orbix 
                               dashboard. The AI layer parses the gross salary,
                               deductions, and tax rules by jurisdiction, then
                               produces a structured transaction plan with net
@@ -1397,7 +1397,7 @@ function AptosLandingPage() {
       <div className="flex w-full flex-col items-center justify-center gap-12 bg-default-background px-6 py-32">
         <div className="flex w-full max-w-[1024px] flex-col items-center justify-center gap-8">
           <span className="w-full whitespace-pre-wrap font-['Montserrat'] text-[62px] font-[900] leading-[58px] text-brand-900 text-center -tracking-[0.04em] mobile:font-['Montserrat'] mobile:text-[40px] mobile:font-[900] mobile:leading-[40px] mobile:tracking-normal">
-            {" CHOOSE Zarfa FOR BORDERLESS PAYMENTS"}
+            {" CHOOSE Orbix  FOR BORDERLESS PAYMENTS"}
           </span>
           <span className="max-w-[768px] whitespace-pre-wrap font-['Montserrat'] text-[20px] font-[400] leading-[28px] text-default-font text-center -tracking-[0.015em]">
             {
@@ -1658,7 +1658,7 @@ function AptosLandingPage() {
             <div className="flex min-h-[384px] min-w-[240px] max-w-[384px] grow shrink-0 basis-0 flex-col items-start justify-end gap-8 self-stretch rounded-[32px] bg-default-background px-8 py-8 mobile:min-h-[384px] mobile:w-full mobile:min-w-[240px] mobile:grow mobile:shrink-0 mobile:basis-0">
               <div className="flex w-full flex-col items-start justify-center gap-4">
                 <span className="max-w-[384px] whitespace-pre-wrap font-['Montserrat'] text-[30px] font-[700] leading-[34px] text-brand-900 -tracking-[0.025em]">
-                  {"Stay up to date with Zarfa\n"}
+                  {"Stay up to date with Orbix \n"}
                 </span>
                 <span className="w-full max-w-[576px] whitespace-pre-wrap font-['Montserrat'] text-[18px] font-[400] leading-[26px] text-default-font -tracking-[0.01em]">
                   {
@@ -1696,7 +1696,7 @@ function AptosLandingPage() {
             <div className="flex min-h-[384px] min-w-[320px] max-w-[1280px] grow shrink-0 basis-0 flex-col items-start justify-end gap-8 self-stretch rounded-[32px] bg-brand-900 px-8 py-8">
               <div className="flex w-full flex-col items-start justify-center gap-4">
                 <span className="max-w-[384px] whitespace-pre-wrap font-['Montserrat'] text-[30px] font-[700] leading-[34px] text-white -tracking-[0.025em]">
-                  {"Zarfa:\nPayroll Solution"}
+                  {"Orbix :\nPayroll Solution"}
                 </span>
                 <span className="w-full max-w-[576px] whitespace-pre-wrap font-['Montserrat'] text-[18px] font-[400] leading-[26px] text-white -tracking-[0.01em]">
                   {

@@ -195,7 +195,7 @@ export const StatsOverview: React.FC<StatsOverviewProps> = ({
         <div className="bg-gray-100 border border-gray-200 rounded-lg p-3 mt-4 sm:mt-6">
           <div className="text-xs text-gray-700 mb-1">Getting Started</div>
           <div className="text-xs sm:text-sm text-gray-700">
-            Add your first employee to begin using Zarfa's payroll system
+            Add your first employee to begin using Orbix 's payroll system
           </div>
         </div>
       )}

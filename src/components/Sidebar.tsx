@@ -318,7 +318,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
                 >
                   <div>
                     <h1 className="text-xl font-bold text-gray-900">
-                      ⚡ Zarfa
+                      ⚡ Orbix 
                     </h1>
                   </div>
                 </motion.div>
